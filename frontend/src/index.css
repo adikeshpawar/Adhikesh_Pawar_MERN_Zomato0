@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.navbar {
+    position: fixed; /* Fix the navbar to the top */
+    top: 0;
+    left: 0;
+    right: 0;
+    /* background-color: #ffffff;  */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for some depth */
+    z-index: 1000; /* Ensure the navbar stays above other content */
+  }
